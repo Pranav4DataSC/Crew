@@ -4,13 +4,12 @@ from crewai import Crew, Process, Agent, Task
 from langchain_core.callbacks import BaseCallbackHandler
 from typing import TYPE_CHECKING, Any, Dict, Optional
 from langchain_openai import ChatOpenAI
-'''
 import sqlite3
 
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-'''
+
 # Show title and description.
 st.title("💬 CrewAI Writing Studio")
 st.write(
