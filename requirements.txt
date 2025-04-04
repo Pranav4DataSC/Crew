@@ -4,3 +4,4 @@ crewai
 typing
 langchain_core
 langchain_openai
+sqlite3 >= 3.35.0
