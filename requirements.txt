@@ -1,1 +1,6 @@
 streamlit
+openai
+crewai
+typing
+langchain_core
+langchain_openai
